@@ -1,0 +1,57 @@
+.button:hover {
+    transition: 0.1s;
+    background-color: #8d18ff;
+    scale: 1.05;
+}
+.button {
+    color: rgb(227, 227, 227);
+    cursor: pointer;
+    height: 2rem;
+    padding: 0 20px;
+    background-color: rgb(133, 0, 255);
+    font-size: 1.5rem;
+    transition: 0.1s;
+
+}
+
+.button:active {
+    transition: 0.1s;
+    background-color: #4e009b;
+}
+
+.img:hover{
+    transition: 0.3s;
+    scale: 1.06;
+    z-index: 0;
+}
+.img{
+    transition: 0.2s;
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.card-p {
+    width: 25rem;
+    background-color: rgb(23,23,23);
+    margin-top: 2rem;
+    padding: 1rem;
+    color: gray;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-p {
+    font-family: Arial;
+    text-align: left;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 18rem;
+    cursor: pointer;
+}
